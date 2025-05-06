@@ -1,0 +1,225 @@
+:root {
+    --gold: #FFD700;
+    --blue: #004AAD;
+    --black: #000000;
+    --white: #ffffff;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--white);
+    color: var(--black);
+  }
+  
+  .navbar {
+    background-color: var(--black);
+  }
+  
+  .navbar-brand,
+  .nav-link {
+    color: var(--white) !important;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover,
+  .navbar-dark .navbar-nav .nav-link.active {
+    color: #f7c72f;
+  }
+  
+  
+  .hero {
+    background: linear-gradient(to right, var(--blue), var(--gold));
+    color: var(--white);
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+  }
+  
+  .btn-gold {
+    background-color: var(--gold);
+    color: var(--black);
+    border: none;
+  }
+  
+  .btn-gold:hover {
+    background-color: #e6c200;
+  }
+  
+  .section-title {
+    color: var(--blue);
+    font-weight: 700;
+  }
+  
+  .services {
+    background-color: #f9f9f9;
+  }
+  
+  .service-card {
+    background-color: var(--white);
+    border: 1px solid #ddd;
+    border-left: 5px solid var(--gold);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  }
+  
+  .service-card h4 {
+    color: var(--blue);
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .about {
+    background-color: var(--white);
+    color: var(--black);
+  }
+  
+  .about img {
+    max-width: 100%;
+    border-left: 5px solid var(--blue);
+  }
+  
+  .about p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+  }
+  
+  .testimonials {
+    background-color: #fff;
+  }
+  
+  .testimonial-card {
+    border: 1px solid #eee;
+    transition: transform 0.3s ease;
+    height: 100%;
+  }
+  
+  .testimonial-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--gold);
+  }
+  
+  .testimonial-card p {
+    font-style: italic;
+    color: #333;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: var(--blue);
+    border-radius: 50%;
+    padding: 1rem;
+  }
+  
+  .cta-banner {
+    background-color: #0d1a2b; /* Dark Blue */
+    color: white;
+  }
+  
+  .cta-banner h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  .cta-banner p {
+    font-size: 1.1rem;
+  }
+  
+  .btn-gold {
+    background-color: #f7c72f; /* Gold */
+    color: #0d1a2b; /* Dark Blue */
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-gold:hover {
+    background-color: #ffd700;
+    color: white;
+  }
+
+  .contact {
+    background: linear-gradient(135deg, #0d1a2b, #f7c72f);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+  
+  
+  .contact h2 {
+    color: #f7c72f;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .contact .form-control {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+    border: none;
+  }
+  
+  .contact .form-control::placeholder {
+    color: #555;
+  }
+  
+  
+  .contact .form-control {
+    border-radius: 8px;
+  }
+  
+  .contact .btn-gold {
+    background-color: #f7c72f;
+    color: #0d1a2b;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact .btn-gold:hover {
+    background-color: #ffd700;
+    color: white;
+  }
+  
+  .footer {
+    background-color: #0d1a2b;
+  }
+  
+  .text-gold {
+    color: #f7c72f;
+  }
+  
+  .footer-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #f7c72f;
+  }
+  
+  .footer i {
+    font-size: 1.2rem;
+  }
+  
+  
